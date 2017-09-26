@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401E7E801F4EF146004A39D7 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401E7E7F1F4EF146004A39D7 /* ViewControllerTest.swift */; };
+		401E7E8D1F4EF800004A39D7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 401E7E8C1F4EF800004A39D7 /* GoogleSignIn.bundle */; };
+		401E7E951F4EF920004A39D7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E8E1F4EF920004A39D7 /* AddressBook.framework */; };
+		401E7E961F4EF920004A39D7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E8F1F4EF920004A39D7 /* AssetsLibrary.framework */; };
+		401E7E971F4EF920004A39D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E901F4EF920004A39D7 /* CoreLocation.framework */; };
+		401E7E981F4EF920004A39D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E911F4EF920004A39D7 /* CoreMotion.framework */; };
+		401E7E991F4EF920004A39D7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E921F4EF920004A39D7 /* MessageUI.framework */; };
+		401E7E9A1F4EF920004A39D7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E931F4EF920004A39D7 /* SafariServices.framework */; };
+		401E7E9B1F4EF920004A39D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E7E941F4EF920004A39D7 /* SystemConfiguration.framework */; };
+		40B6A9571F4D80B200E8158C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9561F4D80B200E8158C /* AppDelegate.swift */; };
+		40B6A95A1F4D80B200E8158C /* DarkRoom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9581F4D80B200E8158C /* DarkRoom.xcdatamodeld */; };
+		40B6A95C1F4D80B200E8158C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A95B1F4D80B200E8158C /* MasterViewController.swift */; };
+		40B6A95E1F4D80B200E8158C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A95D1F4D80B200E8158C /* DetailViewController.swift */; };
+		40B6A9611F4D80B200E8158C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B6A95F1F4D80B200E8158C /* Main.storyboard */; };
+		40B6A9631F4D80B200E8158C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B6A9621F4D80B200E8158C /* Assets.xcassets */; };
+		40B6A9661F4D80B200E8158C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B6A9641F4D80B200E8158C /* LaunchScreen.storyboard */; };
+		40B6A9F61F4D80FA00E8158C /* ConnectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9F41F4D80FA00E8158C /* ConnectServer.swift */; };
+		40B6A9F71F4D80FA00E8158C /*  ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9F51F4D80FA00E8158C /*  ImageLoader.swift */; };
+		40B6A9FD1F4D811800E8158C /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9F81F4D811800E8158C /* GuestViewController.swift */; };
+		40B6A9FE1F4D811800E8158C /* CellBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9F91F4D811800E8158C /* CellBooks.swift */; };
+		40B6A9FF1F4D811800E8158C /* GuestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9FA1F4D811800E8158C /* GuestDetailViewController.swift */; };
+		40B6AA001F4D811800E8158C /* GuestBookRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9FB1F4D811800E8158C /* GuestBookRead.swift */; };
+		40B6AA011F4D811800E8158C /* CellBookRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A9FC1F4D811800E8158C /* CellBookRead.swift */; };
+		40B6AA031F4D812100E8158C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40B6AA021F4D812100E8158C /* GoogleService-Info.plist */; };
+		8776C6D63499DBDEC03C4A3D /* Pods_DarkRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB428BB8B7C65F24CA5C2869 /* Pods_DarkRoom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401E7E7F1F4EF146004A39D7 /* ViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerTest.swift; path = TryGoogleSignIn/ViewControllerTest.swift; sourceTree = "<group>"; };
+		401E7E821F4EF1C4004A39D7 /* DarkRoom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DarkRoom-Bridging-Header.h"; sourceTree = "<group>"; };
+		401E7E8C1F4EF800004A39D7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = DarkRoom/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		401E7E8E1F4EF920004A39D7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		401E7E8F1F4EF920004A39D7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		401E7E901F4EF920004A39D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		401E7E911F4EF920004A39D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		401E7E921F4EF920004A39D7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		401E7E931F4EF920004A39D7 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		401E7E941F4EF920004A39D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		401E7E9F1F4F7216004A39D7 /* ViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerTest.h; path = TryGoogleSignIn/ViewControllerTest.h; sourceTree = "<group>"; };
+		40B6A9531F4D80B200E8158C /* DarkRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B6A9561F4D80B200E8158C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40B6A9591F4D80B200E8158C /* DarkRoom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DarkRoom.xcdatamodel; sourceTree = "<group>"; };
+		40B6A95B1F4D80B200E8158C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		40B6A95D1F4D80B200E8158C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		40B6A9601F4D80B200E8158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40B6A9621F4D80B200E8158C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40B6A9651F4D80B200E8158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40B6A9671F4D80B200E8158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B6A9F41F4D80FA00E8158C /* ConnectServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectServer.swift; sourceTree = "<group>"; };
+		40B6A9F51F4D80FA00E8158C /*  ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " ImageLoader.swift"; sourceTree = "<group>"; };
+		40B6A9F81F4D811800E8158C /* GuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
+		40B6A9F91F4D811800E8158C /* CellBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellBooks.swift; sourceTree = "<group>"; };
+		40B6A9FA1F4D811800E8158C /* GuestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestDetailViewController.swift; sourceTree = "<group>"; };
+		40B6A9FB1F4D811800E8158C /* GuestBookRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestBookRead.swift; sourceTree = "<group>"; };
+		40B6A9FC1F4D811800E8158C /* CellBookRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellBookRead.swift; sourceTree = "<group>"; };
+		40B6AA021F4D812100E8158C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4ADDE21C2FB2F88E728B64DD /* Pods-DarkRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkRoom/Pods-DarkRoom.release.xcconfig"; sourceTree = "<group>"; };
+		504BF6C5CE731DA93FE1AFA8 /* Pods-DarkRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkRoom/Pods-DarkRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		FB428BB8B7C65F24CA5C2869 /* Pods_DarkRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B6A9501F4D80B200E8158C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401E7E951F4EF920004A39D7 /* AddressBook.framework in Frameworks */,
+				401E7E961F4EF920004A39D7 /* AssetsLibrary.framework in Frameworks */,
+				401E7E971F4EF920004A39D7 /* CoreLocation.framework in Frameworks */,
+				401E7E981F4EF920004A39D7 /* CoreMotion.framework in Frameworks */,
+				401E7E991F4EF920004A39D7 /* MessageUI.framework in Frameworks */,
+				401E7E9A1F4EF920004A39D7 /* SafariServices.framework in Frameworks */,
+				401E7E9B1F4EF920004A39D7 /* SystemConfiguration.framework in Frameworks */,
+				8776C6D63499DBDEC03C4A3D /* Pods_DarkRoom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AF11515EC38B17F2E4879E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				504BF6C5CE731DA93FE1AFA8 /* Pods-DarkRoom.debug.xcconfig */,
+				4ADDE21C2FB2F88E728B64DD /* Pods-DarkRoom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		401E7E811F4EF174004A39D7 /* TryGoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				401E7E821F4EF1C4004A39D7 /* DarkRoom-Bridging-Header.h */,
+				401E7E9F1F4F7216004A39D7 /* ViewControllerTest.h */,
+			);
+			name = TryGoogleSignIn;
+			sourceTree = "<group>";
+		};
+		40B6A94A1F4D80B200E8158C = {
+			isa = PBXGroup;
+			children = (
+				401E7E8C1F4EF800004A39D7 /* GoogleSignIn.bundle */,
+				40B6A9551F4D80B200E8158C /* DarkRoom */,
+				40B6A9541F4D80B200E8158C /* Products */,
+				39AF11515EC38B17F2E4879E /* Pods */,
+				E8C8A3629858B5B50A7EE1BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40B6A9541F4D80B200E8158C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B6A9531F4D80B200E8158C /* DarkRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40B6A9551F4D80B200E8158C /* DarkRoom */ = {
+			isa = PBXGroup;
+			children = (
+				401E7E811F4EF174004A39D7 /* TryGoogleSignIn */,
+				40B6AA021F4D812100E8158C /* GoogleService-Info.plist */,
+				40B6A9F81F4D811800E8158C /* GuestViewController.swift */,
+				40B6A9F91F4D811800E8158C /* CellBooks.swift */,
+				40B6A9FA1F4D811800E8158C /* GuestDetailViewController.swift */,
+				40B6A9FB1F4D811800E8158C /* GuestBookRead.swift */,
+				40B6A9FC1F4D811800E8158C /* CellBookRead.swift */,
+				40B6A9F41F4D80FA00E8158C /* ConnectServer.swift */,
+				40B6A9F51F4D80FA00E8158C /*  ImageLoader.swift */,
+				40B6A9561F4D80B200E8158C /* AppDelegate.swift */,
+				40B6A95B1F4D80B200E8158C /* MasterViewController.swift */,
+				40B6A95D1F4D80B200E8158C /* DetailViewController.swift */,
+				40B6A95F1F4D80B200E8158C /* Main.storyboard */,
+				40B6A9621F4D80B200E8158C /* Assets.xcassets */,
+				40B6A9641F4D80B200E8158C /* LaunchScreen.storyboard */,
+				40B6A9671F4D80B200E8158C /* Info.plist */,
+				40B6A9581F4D80B200E8158C /* DarkRoom.xcdatamodeld */,
+				401E7E7F1F4EF146004A39D7 /* ViewControllerTest.swift */,
+			);
+			path = DarkRoom;
+			sourceTree = "<group>";
+		};
+		E8C8A3629858B5B50A7EE1BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				401E7E8E1F4EF920004A39D7 /* AddressBook.framework */,
+				401E7E8F1F4EF920004A39D7 /* AssetsLibrary.framework */,
+				401E7E901F4EF920004A39D7 /* CoreLocation.framework */,
+				401E7E911F4EF920004A39D7 /* CoreMotion.framework */,
+				401E7E921F4EF920004A39D7 /* MessageUI.framework */,
+				401E7E931F4EF920004A39D7 /* SafariServices.framework */,
+				401E7E941F4EF920004A39D7 /* SystemConfiguration.framework */,
+				FB428BB8B7C65F24CA5C2869 /* Pods_DarkRoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B6A9521F4D80B200E8158C /* DarkRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B6A96A1F4D80B200E8158C /* Build configuration list for PBXNativeTarget "DarkRoom" */;
+			buildPhases = (
+				BA69DA6EB63329642BBF9CB9 /* [CP] Check Pods Manifest.lock */,
+				40B6A94F1F4D80B200E8158C /* Sources */,
+				40B6A9501F4D80B200E8158C /* Frameworks */,
+				40B6A9511F4D80B200E8158C /* Resources */,
+				D42C8299A012D07713D461E0 /* [CP] Embed Pods Frameworks */,
+				305D7F519B09ECA36318A56D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkRoom;
+			productName = DarkRoom;
+			productReference = 40B6A9531F4D80B200E8158C /* DarkRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B6A94B1F4D80B200E8158C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Игорь Дмитриев";
+				TargetAttributes = {
+					40B6A9521F4D80B200E8158C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 965S576BCA;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40B6A94E1F4D80B200E8158C /* Build configuration list for PBXProject "DarkRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en_GB,
+				es,
+				es_MX,
+				fi,
+				fr,
+				he,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nb,
+				nl,
+				pl,
+				pt,
+				pt_BR,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = 40B6A94A1F4D80B200E8158C;
+			productRefGroup = 40B6A9541F4D80B200E8158C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B6A9521F4D80B200E8158C /* DarkRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B6A9511F4D80B200E8158C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B6A9661F4D80B200E8158C /* LaunchScreen.storyboard in Resources */,
+				401E7E8D1F4EF800004A39D7 /* GoogleSignIn.bundle in Resources */,
+				40B6AA031F4D812100E8158C /* GoogleService-Info.plist in Resources */,
+				40B6A9631F4D80B200E8158C /* Assets.xcassets in Resources */,
+				40B6A9611F4D80B200E8158C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305D7F519B09ECA36318A56D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DarkRoom/Pods-DarkRoom-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkRoom/Pods-DarkRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA69DA6EB63329642BBF9CB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42C8299A012D07713D461E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DarkRoom/Pods-DarkRoom-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkRoom/Pods-DarkRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B6A94F1F4D80B200E8158C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B6A9FE1F4D811800E8158C /* CellBooks.swift in Sources */,
+				40B6A95A1F4D80B200E8158C /* DarkRoom.xcdatamodeld in Sources */,
+				40B6A9F71F4D80FA00E8158C /*  ImageLoader.swift in Sources */,
+				40B6AA001F4D811800E8158C /* GuestBookRead.swift in Sources */,
+				40B6A9FF1F4D811800E8158C /* GuestDetailViewController.swift in Sources */,
+				40B6A9F61F4D80FA00E8158C /* ConnectServer.swift in Sources */,
+				40B6A9571F4D80B200E8158C /* AppDelegate.swift in Sources */,
+				40B6AA011F4D811800E8158C /* CellBookRead.swift in Sources */,
+				40B6A9FD1F4D811800E8158C /* GuestViewController.swift in Sources */,
+				401E7E801F4EF146004A39D7 /* ViewControllerTest.swift in Sources */,
+				40B6A95C1F4D80B200E8158C /* MasterViewController.swift in Sources */,
+				40B6A95E1F4D80B200E8158C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40B6A95F1F4D80B200E8158C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B6A9601F4D80B200E8158C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40B6A9641F4D80B200E8158C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B6A9651F4D80B200E8158C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40B6A9681F4D80B200E8158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40B6A9691F4D80B200E8158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B6A96B1F4D80B200E8158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504BF6C5CE731DA93FE1AFA8 /* Pods-DarkRoom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 965S576BCA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DarkRoom/Rus_dialog/google_signin_sdk_4_0_1",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+				);
+				INFOPLIST_FILE = DarkRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DarkRoom",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearesputnik.DarkRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DarkRoom/DarkRoom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40B6A96C1F4D80B200E8158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADDE21C2FB2F88E728B64DD /* Pods-DarkRoom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 965S576BCA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DarkRoom/Rus_dialog/google_signin_sdk_4_0_1",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+				);
+				INFOPLIST_FILE = DarkRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DarkRoom",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearesputnik.DarkRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DarkRoom/DarkRoom-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B6A94E1F4D80B200E8158C /* Build configuration list for PBXProject "DarkRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B6A9681F4D80B200E8158C /* Debug */,
+				40B6A9691F4D80B200E8158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B6A96A1F4D80B200E8158C /* Build configuration list for PBXNativeTarget "DarkRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B6A96B1F4D80B200E8158C /* Debug */,
+				40B6A96C1F4D80B200E8158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40B6A9581F4D80B200E8158C /* DarkRoom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40B6A9591F4D80B200E8158C /* DarkRoom.xcdatamodel */,
+			);
+			currentVersion = 40B6A9591F4D80B200E8158C /* DarkRoom.xcdatamodel */;
+			path = DarkRoom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 40B6A94B1F4D80B200E8158C /* Project object */;
+}
